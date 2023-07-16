@@ -1,5 +1,3 @@
 # tratamento_dados_ENEM
-
-This project analyzes the results of ENEM in the state of São Paulo for the year 2019.
-
-The data were extracted from the INEP website: http://inep.gov.br/microdados
+Este projeto analisa os resultados do ENEM no estado de São Paulo do ano de 2019.
+Os dados foram extraídos do site do INEP: http://inep.gov.br/microdados
