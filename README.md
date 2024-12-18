@@ -1,50 +1,55 @@
-# Projeto Tratamento de Dados ENEM - São Paulo 2019
-Este projeto tem como objetivo realizar uma análise dos resultados do Exame Nacional do Ensino Médio (ENEM) no estado de São Paulo no ano de 2019. Os dados utilizados neste projeto foram extraídos do site do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), disponível em http://inep.gov.br/microdados.
+# ENEM Data Processing Project - São Paulo 2019
 
-## Motivação
-O ENEM é uma das maiores avaliações educacionais do Brasil e oferece importantes informações sobre o desempenho dos estudantes em diferentes áreas de conhecimento. A análise dos dados do ENEM pode fornecer insights valiosos sobre o sistema educacional do estado de São Paulo, ajudando a identificar pontos fortes e áreas que necessitam de melhoria.
+This project aims to analyze the results of the Exame Nacional do Ensino Médio (ENEM) in the state of São Paulo for the year 2019. The data used in this project was extracted from the Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP) website, available at [http://inep.gov.br/microdados](http://inep.gov.br/microdados).
 
-## Dados Utilizados
-Os dados utilizados neste projeto são os microdados do ENEM 2019 referentes ao estado de São Paulo. Os microdados contêm informações detalhadas sobre cada estudante que participou do exame, incluindo notas por área de conhecimento, informações socioeconômicas, escolaridade, entre outros dados relevantes.
+## Motivation
 
-## Objetivos
-O projeto "Tratamento de Dados ENEM - São Paulo 2019" tem os seguintes objetivos principais:
+ENEM is one of the largest educational assessments in Brazil and provides crucial information on students' performance across various fields of knowledge. Analyzing ENEM data can offer valuable insights into the educational system in São Paulo, helping to identify strengths and areas for improvement.
 
-1. Realizar uma limpeza e tratamento dos dados brutos, garantindo que estejam prontos para análise.
+## Data Used
 
-2. Explorar os dados de desempenho dos estudantes nas diferentes áreas do conhecimento e identificar padrões e tendências.
+The data used in this project consists of the 2019 ENEM microdata for the state of São Paulo. The microdata contains detailed information about each student who participated in the exam, including scores by field of knowledge, socioeconomic background, education level, and other relevant data.
 
-3. Analisar a relação entre o desempenho dos estudantes e variáveis socioeconômicas, como renda familiar e tipo de escola.
+## Objectives
 
-4. Visualizar os dados de forma gráfica para facilitar a compreensão dos resultados.
+The "ENEM Data Processing - São Paulo 2019" project has the following main objectives:
 
-## Como utilizar o projeto
-- Requisitos
-Para executar este projeto, é necessário ter instalado:
-Jupyter Notebook ou JupyterLab
+1. Clean and process the raw data to prepare it for analysis.
+2. Explore the students' performance in different areas of knowledge, identifying patterns and trends.
+3. Analyze the relationship between students' performance and socioeconomic variables such as family income and school type.
+4. Visualize the data graphically to make the results easier to interpret.
 
-## Instruções
-1. Clone o repositório para o seu ambiente local:
-  git clone https://github.com/sofiasawczenko/tratamento_dados_ENEM.git
+## How to Use the Project
 
-2. Acesse o diretório do projeto:
+### Requirements
+To run this project, you will need to have the following installed:
+- Jupyter Notebook or JupyterLab
+
+### Instructions
+1. Clone the repository to your local environment:
+ ```bash
+   git clone https://github.com/sofiasawczenko/tratamento_dados_ENEM.git
+```
+2. Navigate to the project directory
+ ```bash
   cd tratamento_dados_ENEM
-
-3. Instale as dependências:
+```
+3. Install the dependencies:
+```bash
   pip install -r requirements.txt
+```
+4. Download the ENEM 2019 microdata for São Paulo from the INEP website (http://inep.gov.br/microdados) and place the files in the "data" folder.
 
-4. Faça o download dos microdados do ENEM 2019 do estado de São Paulo a partir do site do INEP (http://inep.gov.br/microdados) e coloque os arquivos na pasta "data".
+5. Launch Jupyter Notebook or JupyterLab.
 
-5. Execute o Jupyter Notebook ou JupyterLab
+6. Open the "analise_enem_sp_2019.ipynb" notebook and follow the instructions to perform the data analysis.
 
-6. Abra o notebook "analise_enem_sp_2019.ipynb" e siga as instruções para realizar a análise dos dados.
+## Contribution
+Contributions are welcome! If you would like to contribute to the project, please open a pull request with your changes and provide a clear description of the modifications.
 
-## Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para o projeto, por favor, abra um pull request com as suas modificações e descreva claramente as mudanças realizadas.
+## License
+This project is licensed under the MIT License.
 
-## Licença
-Este projeto está sob a licença MIT.
-
-## Contato
-Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo através do sofiawko@gmail.com ou pelo meu perfil do GitHub (http://github.com/sofiasawczenko).
+## Contact
+If you have any questions or suggestions, feel free to contact me at sofiawko@gmail.com or through my GitHub profile (http://github.com/sofiasawczenko).
 
